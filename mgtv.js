@@ -21,8 +21,7 @@ https://mdwy5.com/#/register?code=580580
 
 [rewrite_local]
 
-^https:\/\/fcapi\.91por\.vip\/api\/video\/user\/info url script-response-body 
-https://raw.githubusercontent.com/xxdnw/js/main/mgtv.js?token=GHSAT0AAAAAABYNP7UFOZIFJ5UF2C56QSDOYYWGCXQ
+^https:\/\/fcapi\.91por\.vip\/api\/video\/user\/info url script-response-body https://raw.githubusercontent.com/xxdnw/js/main/mgtv.js?token=GHSAT0AAAAAABYNP7UFOZIFJ5UF2C56QSDOYYWGCXQ
 
 
 
