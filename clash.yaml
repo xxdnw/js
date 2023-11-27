@@ -1,28 +1,9 @@
-#==========================================
-# @ConfigName        墨鱼自用Clash配置文件
-# @Author            @ddgksf2013
-# @TgChannel         𝐡𝐭𝐭𝐩𝐬://𝐭.𝐦𝐞/𝐝𝐝𝐠𝐤𝐬𝐟𝟐𝟎𝟐𝟏
-# @WechatID          公众号墨鱼手记
-# @Feedback          💡请通过邮件反馈问题[其它方式一概无视]：𝐝𝐝𝐠𝐤𝐬𝐟𝟐𝟎𝟏𝟑@𝟏𝟔𝟑.𝐜𝐨𝐦 💡
-# @UpdateTime        2023/08/13 10:00 UTC/GMT +8
-# @Function          支持手动选择、自动测速、广告屏蔽、兜底分流、按国家分组节点、多机场订阅等等   
-# @ClashDownload     https://github.com/Fndroid/clash_for_windows_pkg/releases
-# @Thanks            @blackmatrix7, @Fndroid, @Anti
-# @Attention         𝐏𝐥𝐞𝐚𝐬𝐞 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐥𝐚𝐭𝐞𝐬𝐭 𝐯𝐞𝐫𝐬𝐢𝐨𝐧 𝐨𝐟 𝐂𝐥𝐚𝐬𝐡𝐟𝐨𝐫𝐖𝐢𝐧𝐝𝐨𝐰𝐬
-# @ConfigVersion     1.0.20
-#==========================================
-
-port: 7890           # HTTP 代理端口
-socks-port: 7891     # Socks 端口
-redir-port: 7892     # Redir 端口
-mixed-port: 7893     # 混合端口
-allow-lan: true      # 允许局域网连接
-bind-address: "*"    # 地址绑定
-mode: rule           # 规则模式
-log-level: info      # 日志级别
-ipv6: false          # IPV6开关
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
 external-controller: 127.0.0.1:9090
-
 dns:
   enable: true       # 不使用系统 DNS
   ipv6: false        # 关闭 IPV6
